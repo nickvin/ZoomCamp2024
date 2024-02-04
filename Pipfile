@@ -9,8 +9,9 @@ jupyter = "*"
 pandas = "*"
 pyarrow = "*"
 sqlalchemy = "*"
-psycopg2 = "*"
+psycopg2-binary = "*"
 argparse = "*"
+pip = "*"
 
 [dev-packages]
 
