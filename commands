@@ -3,6 +3,7 @@ docker build -t taxi_ingest:v001 .
 python ingest_data
 
 docker run -it \
+--name=zoomer \
 --network=zoomcamp_default \
 taxi_ingest:v001 \
     --user=root \
